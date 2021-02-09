@@ -23,14 +23,14 @@ public class Hesapmakinesi {
                   a = scan.nextInt();
                   System.out.println("İkinci sayı:");
                   b = scan.nextInt();
-                  System.out.println("Girilen değerlerin toplamı:" + (a + b));
+                  System.out.println("Girilen değerlerin toplamı: " + (a + b));
                   break;
               case "2":
                   System.out.println("Birinci sayı:");
                   a = scan.nextInt();
                   System.out.println("İkinci sayı:");
                   b = scan.nextInt();
-                  System.out.println("Girilen değerlerin farkı:" + (a - b));
+                  System.out.println("Girilen değerlerin farkı: " + (a - b));
                   break;
               case "3":
                   System.out.println("Birinci sayı:");
@@ -40,14 +40,14 @@ public class Hesapmakinesi {
                   if(a > 10000 && b > 10000){
                       throw new CarpmaException();
                   }
-                  System.out.println("Girilen değerlerin çarpımı:" + (a * b));
+                  System.out.println("Girilen değerlerin çarpımı: " + (a * b));
                   break;
               case "4":
                   System.out.println("Birinci sayı:");
                   a = scan.nextInt();
                   System.out.println("İkinci sayı:");
                   b = scan.nextInt();
-                  System.out.println("Girilen değerlerin bölümü:" + (a / b));
+                  System.out.println("Girilen değerlerin bölümü: " + (a / b));
                   break;
               default:
                   System.out.println("Geçersiz işlem");
